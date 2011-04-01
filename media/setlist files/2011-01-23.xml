@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfArrayOfMedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>32 hours</name>
+      <url>32_hours.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>32 hours washing out</name>
+      <url>32_hours_01.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>32 hours waves</name>
+      <url>32_hours_02.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>nonbeing</name>
+      <url>nonbeing.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>nonbeing</name>
+      <url>nonbeing.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>shooting birds</name>
+      <url>shooting_birds.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>silent waltz</name>
+      <url>silent_waltz.wav</url>
+    </Media>
+    <Media xsi:type="Video">
+      <name>silent waltz</name>
+      <url>silent_waltz.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Beliefs</name>
+      <url>beliefs.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>0119</name>
+      <url>0119.wav</url>
+    </Media>
+    <Media xsi:type="Video">
+      <name>0119</name>
+      <url>0119.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>it sounds familiar</name>
+      <url>it_sounds_familiar.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>it sounds familiar</name>
+      <url>it_sounds_familiar.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Stealing Cypher</name>
+      <url>stealing_cypher.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Breathe</name>
+      <url>breathe.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>lights off</name>
+      <url>lights_off.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>lights off</name>
+      <url>lights_off.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>inert simulation</name>
+      <url>inert_simulation.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>inert simulation 01</name>
+      <url>inert_simulation_01.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>inert simulation 02</name>
+      <url>inert_simulation_02.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>inert simulation 03</name>
+      <url>inert_simulation_03.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>son ombre</name>
+      <url>son_ombre.wav</url>
+    </Media>
+    <Media xsi:type="Video">
+      <name>son ombre</name>
+      <url>son_ombre.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>today 10th</name>
+      <url>today_10th.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>today 10th</name>
+      <url>today_10th.wav</url>
+    </Media>
+  </ArrayOfMedia>
+</ArrayOfArrayOfMedia>

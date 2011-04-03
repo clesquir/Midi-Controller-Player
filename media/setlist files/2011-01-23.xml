@@ -2,47 +2,47 @@
 <ArrayOfArrayOfMedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfMedia>
     <Media xsi:type="Video">
-      <name>32 hours</name>
+      <name>32 Hours</name>
       <url>32_hours.avi</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>32 hours washing out</name>
+      <name>32 Hours - washing out</name>
       <url>32_hours_01.wav</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>32 hours waves</name>
+      <name>32 Hours - waves</name>
       <url>32_hours_02.wav</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Video">
-      <name>nonbeing</name>
+      <name>Nonbeing</name>
       <url>nonbeing.avi</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>nonbeing</name>
+      <name>Nonbeing</name>
       <url>nonbeing.wav</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Video">
-      <name>shooting birds</name>
+      <name>Shooting Birds</name>
       <url>shooting_birds.avi</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>silent waltz</name>
+      <name>Silent Waltz</name>
       <url>silent_waltz.wav</url>
     </Media>
     <Media xsi:type="Video">
-      <name>silent waltz</name>
+      <name>Silent Waltz</name>
       <url>silent_waltz.avi</url>
     </Media>
   </ArrayOfMedia>
@@ -54,23 +54,23 @@
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>0119</name>
-      <url>0119.wav</url>
+      <name>Brothers Aligned</name>
+      <url>brothers_aligned.wav</url>
     </Media>
     <Media xsi:type="Video">
-      <name>0119</name>
-      <url>0119.avi</url>
+      <name>Brothers Aligned</name>
+      <url>brothers_aligned.avi</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Video">
-      <name>it sounds familiar</name>
+      <name>It Sounds Familiar</name>
       <url>it_sounds_familiar.avi</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>it sounds familiar</name>
+      <name>It Sounds Familiar</name>
       <url>it_sounds_familiar.wav</url>
     </Media>
   </ArrayOfMedia>
@@ -88,59 +88,59 @@
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Video">
-      <name>lights off</name>
+      <name>Lights Off</name>
       <url>lights_off.avi</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>lights off</name>
+      <name>Lights Off</name>
       <url>lights_off.wav</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Video">
-      <name>inert simulation</name>
+      <name>Inert Simulation</name>
       <url>inert_simulation.avi</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>inert simulation 01</name>
+      <name>Inert Simulation - 01</name>
       <url>inert_simulation_01.wav</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>inert simulation 02</name>
+      <name>Inert Simulation - 02</name>
       <url>inert_simulation_02.wav</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>inert simulation 03</name>
+      <name>Inert Simulation - 03</name>
       <url>inert_simulation_03.wav</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>son ombre</name>
+      <name>Son Ombre</name>
       <url>son_ombre.wav</url>
     </Media>
     <Media xsi:type="Video">
-      <name>son ombre</name>
+      <name>Son Ombre</name>
       <url>son_ombre.avi</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Video">
-      <name>today 10th</name>
+      <name>Today 10th</name>
       <url>today_10th.avi</url>
     </Media>
   </ArrayOfMedia>
   <ArrayOfMedia>
     <Media xsi:type="Audio">
-      <name>today 10th</name>
+      <name>Today 10th</name>
       <url>today_10th.wav</url>
     </Media>
   </ArrayOfMedia>

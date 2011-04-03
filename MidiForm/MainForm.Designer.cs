@@ -45,9 +45,9 @@ namespace MidiForm
 			this.tbBtnRefresh = new System.Windows.Forms.ToolStripButton();
 			this.tbButtonOpen = new System.Windows.Forms.ToolStripButton();
 			this.tbBtnStop = new System.Windows.Forms.ToolStripButton();
+			this.tbBtnPlay = new System.Windows.Forms.ToolStripButton();
 			this.tbBtnPause = new System.Windows.Forms.ToolStripButton();
 			this.txtMessages = new System.Windows.Forms.TextBox();
-			this.tbBtnPlay = new System.Windows.Forms.ToolStripButton();
 			this.splitForm.Panel1.SuspendLayout();
 			this.splitForm.Panel2.SuspendLayout();
 			this.splitForm.SuspendLayout();
@@ -163,6 +163,16 @@ namespace MidiForm
 			this.tbBtnStop.Text = "Stop";
 			this.tbBtnStop.Click += new System.EventHandler(this.TbBtnStopClick);
 			// 
+			// tbBtnPlay
+			// 
+			this.tbBtnPlay.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tbBtnPlay.Image = ((System.Drawing.Image)(resources.GetObject("tbBtnPlay.Image")));
+			this.tbBtnPlay.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.tbBtnPlay.Name = "tbBtnPlay";
+			this.tbBtnPlay.Size = new System.Drawing.Size(23, 22);
+			this.tbBtnPlay.Text = "Play";
+			this.tbBtnPlay.Click += new System.EventHandler(this.TbBtnPlayClick);
+			// 
 			// tbBtnPause
 			// 
 			this.tbBtnPause.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -175,6 +185,7 @@ namespace MidiForm
 			// 
 			// txtMessages
 			// 
+			this.txtMessages.Cursor = System.Windows.Forms.Cursors.Default;
 			this.txtMessages.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.txtMessages.Location = new System.Drawing.Point(0, 0);
 			this.txtMessages.Multiline = true;
@@ -182,16 +193,6 @@ namespace MidiForm
 			this.txtMessages.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
 			this.txtMessages.Size = new System.Drawing.Size(614, 64);
 			this.txtMessages.TabIndex = 2;
-			// 
-			// tbBtnPlay
-			// 
-			this.tbBtnPlay.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.tbBtnPlay.Image = ((System.Drawing.Image)(resources.GetObject("tbBtnPlay.Image")));
-			this.tbBtnPlay.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.tbBtnPlay.Name = "tbBtnPlay";
-			this.tbBtnPlay.Size = new System.Drawing.Size(23, 22);
-			this.tbBtnPlay.Text = "Play";
-			this.tbBtnPlay.Click += new System.EventHandler(this.TbBtnPlayClick);
 			// 
 			// MainForm
 			// 
@@ -284,6 +285,14 @@ namespace MidiForm
 					InitializeSetlist();
 				}
 	        }
+		}
+		
+		private void Video_MouseEnter(object sender, System.EventArgs e) {
+			Cursor.Hide();
+		}
+		
+		private void Video_MouseLeave(object sender, System.EventArgs e) {
+			Cursor.Show();
 		}
 	}
 }

@@ -125,6 +125,8 @@ namespace MidiForm
 			
 			//Initialize a videoform
 			this.videoForm = new VideoForm();
+			this.videoForm.MouseEnter += new System.EventHandler(Video_MouseEnter);
+			this.videoForm.MouseLeave += new System.EventHandler(Video_MouseLeave);
 		}
 		
 		public void InitializeConfiguration() {
@@ -303,8 +305,10 @@ namespace MidiForm
 					markerButton.Size = new System.Drawing.Size((panelWidth / this.deviceButtons.Length) - (margin * 2), 30);
 					markerButton.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 					markerButton.Text = "";
+					//On click, change the internal index
 					markerButton.Click += new System.EventHandler(ChangeButtonCounter);
-					markerButton.DoubleClick += new System.EventHandler(OpenMedia);
+					//On double click, execute all actions of the marker button
+					markerButton.DoubleClick += new System.EventHandler(ExecuteMarkerButton);
 					markerButton.setButtonIndex(i);
 					markerButton.setStepIndex(j);
 					
@@ -440,13 +444,20 @@ namespace MidiForm
 			);
 			this.videoForm.panVideo.Left = (this.videoForm.Width / 2 - this.videoForm.panVideo.Width / 2);
 			this.videoForm.panVideo.Top = (this.videoForm.Height / 2 - this.videoForm.panVideo.Height / 2);
+			
+			this.currentVideo.HideCursor();
 			this.currentVideo.Play();
 		}
 		
-		public void OpenMedia(object sender, System.EventArgs e) {
+		/// <summary>
+		/// Executes the marker button corresponding to sender
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		public void ExecuteMarkerButton(object sender, System.EventArgs e) {
 			if (sender is MarkerButton) {
 				MarkerButton markerButton = (MarkerButton) sender;
-				var actions = this.setlistByPitch[Pitch.CSharp4][markerButton.getStepIndex()];
+				var actions = this.setlistByPitch[this.deviceButtons[markerButton.getButtonIndex()]][markerButton.getStepIndex()];
 				
 				// Execute each action at this position
 				for (var i = 0; i < actions.Length; i++) {

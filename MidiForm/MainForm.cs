@@ -388,7 +388,7 @@ namespace MidiForm
 					}
 					
 					//Selecting ON ACTION
-					markerButtons[selectedButton][buttonCounter[selectedButton]].BackColor = System.Drawing.Color.GreenYellow;
+					markerButtons[selectedButton][buttonCounter[selectedButton]].BackColor = System.Drawing.ColorTranslator.FromHtml("#a1f73b");
 				} else {
 					/**
 					 * Increment the counter or restart
@@ -491,11 +491,9 @@ namespace MidiForm
 					
 					if (markerButton != null) {
 						if (buttonCounter[i] == j) {
-							markerButton.BackColor = System.Drawing.Color.Maroon;
-							markerButton.ForeColor = System.Drawing.Color.White;
+							markerButton.BackColor = System.Drawing.ColorTranslator.FromHtml("#84ce2c");
 						} else {
 							markerButton.BackColor = System.Drawing.SystemColors.Control;
-							markerButton.ForeColor = System.Drawing.Color.Black;
 						}
 					}
 				}

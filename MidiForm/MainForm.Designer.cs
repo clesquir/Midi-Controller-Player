@@ -93,6 +93,8 @@ namespace MidiForm
 			// panelButtons
 			// 
 			this.panelButtons.AutoScroll = true;
+			this.panelButtons.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelButtons.BackgroundImage")));
+			this.panelButtons.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.panelButtons.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.panelButtons.Location = new System.Drawing.Point(0, 0);
 			this.panelButtons.Name = "panelButtons";

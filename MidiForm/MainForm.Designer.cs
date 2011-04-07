@@ -43,10 +43,13 @@ namespace MidiForm
 			this.splitMessages = new System.Windows.Forms.SplitContainer();
 			this.tbMessages = new System.Windows.Forms.ToolStrip();
 			this.tbBtnRefresh = new System.Windows.Forms.ToolStripButton();
-			this.tbButtonOpen = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+			this.tbBtnOpen = new System.Windows.Forms.ToolStripButton();
+			this.tbBtnPrevious = new System.Windows.Forms.ToolStripButton();
 			this.tbBtnStop = new System.Windows.Forms.ToolStripButton();
 			this.tbBtnPlay = new System.Windows.Forms.ToolStripButton();
 			this.tbBtnPause = new System.Windows.Forms.ToolStripButton();
+			this.tbBtnNext = new System.Windows.Forms.ToolStripButton();
 			this.txtMessages = new System.Windows.Forms.TextBox();
 			this.splitForm.Panel1.SuspendLayout();
 			this.splitForm.Panel2.SuspendLayout();
@@ -59,6 +62,8 @@ namespace MidiForm
 			// 
 			// splitForm
 			// 
+			this.splitForm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitForm.BackgroundImage")));
+			this.splitForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.splitForm.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.splitForm.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
 			this.splitForm.IsSplitterFixed = true;
@@ -68,6 +73,8 @@ namespace MidiForm
 			// 
 			// splitForm.Panel1
 			// 
+			this.splitForm.Panel1.BackColor = System.Drawing.Color.Transparent;
+			this.splitForm.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitForm.Panel1.BackgroundImage")));
 			this.splitForm.Panel1.Controls.Add(this.lblOnPause);
 			this.splitForm.Panel1.Controls.Add(this.panelButtons);
 			// 
@@ -75,7 +82,8 @@ namespace MidiForm
 			// 
 			this.splitForm.Panel2.Controls.Add(this.splitMessages);
 			this.splitForm.Size = new System.Drawing.Size(614, 562);
-			this.splitForm.SplitterDistance = 465;
+			this.splitForm.SplitterDistance = 468;
+			this.splitForm.SplitterWidth = 1;
 			this.splitForm.TabIndex = 10;
 			// 
 			// lblOnPause
@@ -93,13 +101,14 @@ namespace MidiForm
 			// panelButtons
 			// 
 			this.panelButtons.AutoScroll = true;
-			this.panelButtons.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelButtons.BackgroundImage")));
-			this.panelButtons.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.panelButtons.BackColor = System.Drawing.Color.Transparent;
+			this.panelButtons.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
 			this.panelButtons.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.panelButtons.Location = new System.Drawing.Point(0, 0);
 			this.panelButtons.Name = "panelButtons";
-			this.panelButtons.Size = new System.Drawing.Size(614, 465);
-			this.panelButtons.TabIndex = 8;
+			this.panelButtons.Size = new System.Drawing.Size(614, 468);
+			this.panelButtons.TabIndex = 0;
+			this.panelButtons.Scroll += new System.Windows.Forms.ScrollEventHandler(this.PanelButtonsScroll);
 			// 
 			// splitMessages
 			// 
@@ -125,10 +134,13 @@ namespace MidiForm
 			// 
 			this.tbMessages.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
 									this.tbBtnRefresh,
-									this.tbButtonOpen,
+									this.toolStripSeparator1,
+									this.tbBtnOpen,
+									this.tbBtnPrevious,
 									this.tbBtnStop,
 									this.tbBtnPlay,
-									this.tbBtnPause});
+									this.tbBtnPause,
+									this.tbBtnNext});
 			this.tbMessages.Location = new System.Drawing.Point(0, 0);
 			this.tbMessages.Name = "tbMessages";
 			this.tbMessages.Size = new System.Drawing.Size(614, 25);
@@ -145,15 +157,30 @@ namespace MidiForm
 			this.tbBtnRefresh.Text = "Refresh the setup";
 			this.tbBtnRefresh.Click += new System.EventHandler(this.TbBtnRefreshClick);
 			// 
-			// tbButtonOpen
+			// toolStripSeparator1
 			// 
-			this.tbButtonOpen.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.tbButtonOpen.Image = ((System.Drawing.Image)(resources.GetObject("tbButtonOpen.Image")));
-			this.tbButtonOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.tbButtonOpen.Name = "tbButtonOpen";
-			this.tbButtonOpen.Size = new System.Drawing.Size(23, 22);
-			this.tbButtonOpen.Text = "Open a setlist";
-			this.tbButtonOpen.Click += new System.EventHandler(this.TbButtonOpenClick);
+			this.toolStripSeparator1.Name = "toolStripSeparator1";
+			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+			// 
+			// tbBtnOpen
+			// 
+			this.tbBtnOpen.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tbBtnOpen.Image = ((System.Drawing.Image)(resources.GetObject("tbBtnOpen.Image")));
+			this.tbBtnOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.tbBtnOpen.Name = "tbBtnOpen";
+			this.tbBtnOpen.Size = new System.Drawing.Size(23, 22);
+			this.tbBtnOpen.Text = "Open a setlist";
+			this.tbBtnOpen.Click += new System.EventHandler(this.TbBtnOpenClick);
+			// 
+			// tbBtnPrevious
+			// 
+			this.tbBtnPrevious.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tbBtnPrevious.Image = ((System.Drawing.Image)(resources.GetObject("tbBtnPrevious.Image")));
+			this.tbBtnPrevious.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.tbBtnPrevious.Name = "tbBtnPrevious";
+			this.tbBtnPrevious.Size = new System.Drawing.Size(23, 22);
+			this.tbBtnPrevious.Text = "Previous";
+			this.tbBtnPrevious.Click += new System.EventHandler(this.TbBtnPreviousClick);
 			// 
 			// tbBtnStop
 			// 
@@ -185,6 +212,16 @@ namespace MidiForm
 			this.tbBtnPause.Text = "Pause";
 			this.tbBtnPause.Click += new System.EventHandler(this.TbBtnPauseClick);
 			// 
+			// tbBtnNext
+			// 
+			this.tbBtnNext.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tbBtnNext.Image = ((System.Drawing.Image)(resources.GetObject("tbBtnNext.Image")));
+			this.tbBtnNext.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.tbBtnNext.Name = "tbBtnNext";
+			this.tbBtnNext.Size = new System.Drawing.Size(23, 22);
+			this.tbBtnNext.Text = "Next";
+			this.tbBtnNext.Click += new System.EventHandler(this.TbBtnNextClick);
+			// 
 			// txtMessages
 			// 
 			this.txtMessages.Cursor = System.Windows.Forms.Cursors.Default;
@@ -202,10 +239,12 @@ namespace MidiForm
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(614, 562);
 			this.Controls.Add(this.splitForm);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "MainForm";
+			this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Midi Mp3/Video Controller";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormFormClosing);
@@ -221,9 +260,12 @@ namespace MidiForm
 			this.tbMessages.PerformLayout();
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.ToolStripButton tbBtnNext;
+		private System.Windows.Forms.ToolStripButton tbBtnPrevious;
+		private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
 		private System.Windows.Forms.ToolStripButton tbBtnPlay;
 		private System.Windows.Forms.Label lblOnPause;
-		private System.Windows.Forms.ToolStripButton tbButtonOpen;
+		private System.Windows.Forms.ToolStripButton tbBtnOpen;
 		private System.Windows.Forms.ToolStripButton tbBtnRefresh;
 		private System.Windows.Forms.Panel panelButtons;
 		private System.Windows.Forms.ToolStripButton tbBtnPause;
@@ -250,6 +292,42 @@ namespace MidiForm
 			InitializeInputDevice();
 		}
 		
+		void TbBtnOpenClick(object sender, System.EventArgs e){
+			//Opens a dialog choosing the file
+			OpenFileDialog dlg = new OpenFileDialog();
+			if (dlg.ShowDialog() == DialogResult.OK) {
+				
+				if (dlg.FileName.Substring(dlg.FileName.Length - 4) == ".xml") {
+					
+		            //Initialize the file
+					ReadSetlistFile(dlg.FileName);
+					
+					//Rebuild the new setlist
+					InitializeSetlist();
+				}
+	        }
+		}
+		
+		void TbBtnPreviousClick(object sender, System.EventArgs e) {
+			/**
+			 * Decrement the counter of the first button or restart
+			 */
+			int selectedButton = 0;
+			Midi.Pitch selectedPitch = this.deviceButtons[selectedButton];
+			buttonCounter[selectedButton]--;
+			if (buttonCounter[selectedButton] < 0) {
+				buttonCounter[selectedButton] = this.setlistByPitch[selectedPitch].Count - 1;
+			}
+			
+			SetColorMarker();
+			
+			/**
+			 * Following the selected button with the scrollbar
+			 */
+			this.panelButtons.ScrollControlIntoView(markerButtons[selectedButton][buttonCounter[selectedButton]]);
+			this.splitForm.Refresh();
+		}
+		
 		void TbBtnStopClick(object sender, System.EventArgs e) {
 			this.engine.StopAllSounds();
 			if (this.currentVideo != null) {
@@ -274,20 +352,24 @@ namespace MidiForm
 			}
 		}
 		
-		void TbButtonOpenClick(object sender, System.EventArgs e){
-			//Opens a dialog choosing the file
-			OpenFileDialog dlg = new OpenFileDialog();
-			if (dlg.ShowDialog() == DialogResult.OK) {
-				
-				if (dlg.FileName.Substring(dlg.FileName.Length - 4) == ".xml") {
-					
-		            //Initialize the file
-					ReadSetlistFile(dlg.FileName);
-					
-					//Rebuild the new setlist
-					InitializeSetlist();
-				}
-	        }
+		void TbBtnNextClick(object sender, System.EventArgs e) {
+			/**
+			 * Increment the counter of the first button or restart
+			 */
+			int selectedButton = 0;
+			Midi.Pitch selectedPitch = this.deviceButtons[selectedButton];
+			buttonCounter[selectedButton]++;
+			if (buttonCounter[selectedButton] >= this.setlistByPitch[selectedPitch].Count) {
+				buttonCounter[selectedButton] = 0;
+			}
+			
+			SetColorMarker();
+			
+			/**
+			 * Following the selected button with the scrollbar
+			 */
+			this.panelButtons.ScrollControlIntoView(markerButtons[selectedButton][buttonCounter[selectedButton]]);
+			this.splitForm.Refresh();
 		}
 		
 		private void Video_MouseEnter(object sender, System.EventArgs e) {
@@ -296,6 +378,10 @@ namespace MidiForm
 		
 		private void Video_MouseLeave(object sender, System.EventArgs e) {
 			Cursor.Show();
+		}
+		
+		void PanelButtonsScroll(object sender, ScrollEventArgs e) {
+			this.splitForm.Refresh();
 		}
 	}
 }

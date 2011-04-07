@@ -50,9 +50,23 @@ namespace MidiForm
 		/// The list of the buttons (each note is a button)
 		/// </summary>
 		Pitch[] deviceButtons = {
-			Pitch.C4,
-			Pitch.CSharp4
+			Pitch.C4
 		};
+		
+		/// <summary>
+		/// The pitch meaning PREVIOUS
+		/// </summary>
+		Pitch pitchPrevious = Pitch.B3;
+		
+		/// <summary>
+		/// The pitch meaning STOP
+		/// </summary>
+		Pitch pitchStop = Pitch.CNeg1;
+		
+		/// <summary>
+		/// The pitch meaning NEXT
+		/// </summary>
+		Pitch pitchNext = Pitch.CSharp4;
 		
 		/// <summary>
 		/// The device sending a MIDI signal
@@ -96,11 +110,6 @@ namespace MidiForm
 		/// The setlist ordered by button and step order
 		/// </summary>
 		Dictionary<Pitch, List<Media[]>> setlistByPitch = new Dictionary<Pitch, List<Media[]>>();
-		
-		/// <summary>
-		/// The pitch meaning STOP
-		/// </summary>
-		Pitch pitchStop = Pitch.CNeg1;
 		
 		/// <summary>
 		/// The setlist in the order it will be played
@@ -356,10 +365,26 @@ namespace MidiForm
 					}
 					
 					/**
+					 * If the button means NEXT, put the cursor on the next marker
+					 */
+					if (msg.Pitch == this.pitchPrevious) {
+						TbBtnPreviousClick(null, null);
+						return;
+					}
+					
+					/**
 					 * If the button means STOP, stop everything
 					 */
 					if (msg.Pitch == this.pitchStop) {
 						TbBtnStopClick(null, null);
+						return;
+					}
+					
+					/**
+					 * If the button means NEXT, put the cursor on the next marker
+					 */
+					if (msg.Pitch == this.pitchNext) {
+						TbBtnNextClick(null, null);
 						return;
 					}
 				}

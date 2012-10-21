@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MidiDotNet">
+</Property><Property Name="Solution File" Value="C:\Users\cedric\Midi-Controller-Player\MidiDotNet.sln">
+</Property><Property Name="Date" Value="April-28-11">
+</Property><Property Name="Time" Value="21:53 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MidiDotNet.sln" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiDotNet.sln">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Midi.csproj" Description="Project file successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Midi.csproj">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Channel.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Channel.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Chord.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Chord.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Clock.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Clock.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Control.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Control.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\DeviceBase.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\DeviceBase.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Instrument.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Instrument.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Interval.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Interval.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Note.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Note.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Percussion.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Percussion.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\InputDevice.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\InputDevice.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\MessageQueue.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\MessageQueue.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Messages.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Messages.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\OutputDevice.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\OutputDevice.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Pitch.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Pitch.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\ShortMsg.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\ShortMsg.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Win32API.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Win32API.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Scale.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Scale.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\README.txt" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\Midi\README.txt">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Midi.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Midi" Source="Midi\Midi.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\MidiForm.csproj" Description="Project file successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\MidiForm.csproj">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\ConfigSetting.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\ConfigSetting.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\Configuration.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\Configuration.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\Configuration.Designer.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\Configuration.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\MainForm.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\MainForm.Designer.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\MarkerButton.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\MarkerButton.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\Media.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\Media.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\Program.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\Program.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\VideoForm.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\VideoForm.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\VideoForm.Designer.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\VideoForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\XmlConfig.cs" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\XmlConfig.cs">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\Configuration.resx" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\Configuration.resx">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\MainForm.resx" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\VideoForm.resx" Description="File successfully backed up as C:\Users\cedric\Midi-Controller-Player\Backup\MidiForm\VideoForm.resx">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\MidiForm.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MidiForm" Source="MidiForm\MidiForm.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MidiDotNet.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MidiDotNet.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Midi" Source="Midi\Midi.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="MidiForm" Source="MidiForm\MidiForm.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

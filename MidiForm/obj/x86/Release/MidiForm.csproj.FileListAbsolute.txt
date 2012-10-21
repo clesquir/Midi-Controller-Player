@@ -1,0 +1,15 @@
+C:\Users\cedric\Midi-Controller-Player\MidiForm\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\cedric\Midi-Controller-Player\MidiForm\obj\x86\Release\MidiForm.Configuration.resources
+C:\Users\cedric\Midi-Controller-Player\MidiForm\obj\x86\Release\MidiForm.MainForm.resources
+C:\Users\cedric\Midi-Controller-Player\MidiForm\obj\x86\Release\MidiForm.Properties.Resources.resources
+C:\Users\cedric\Midi-Controller-Player\MidiForm\obj\x86\Release\MidiForm.VideoForm.resources
+C:\Users\cedric\Midi-Controller-Player\MidiForm\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\cedric\Midi-Controller-Player\MidiForm\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\cedric\Midi-Controller-Player\MidiForm\bin\Release\MidiForm.exe.config
+C:\Users\cedric\Midi-Controller-Player\MidiForm\bin\Release\MidiForm.exe
+C:\Users\cedric\Midi-Controller-Player\MidiForm\bin\Release\irrKlang.NET2.0.dll
+C:\Users\cedric\Midi-Controller-Player\MidiForm\bin\Release\Midi.dll
+C:\Users\cedric\Midi-Controller-Player\MidiForm\bin\Release\Midi.pdb
+C:\Users\cedric\Midi-Controller-Player\MidiForm\bin\Release\Midi.xml
+C:\Users\cedric\Midi-Controller-Player\MidiForm\obj\x86\Release\MidiForm.exe
+C:\Users\cedric\Midi-Controller-Player\MidiForm\obj\x86\Release\MidiForm.LoadForm.resources

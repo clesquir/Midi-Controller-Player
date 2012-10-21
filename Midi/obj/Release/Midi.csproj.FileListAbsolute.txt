@@ -1,0 +1,5 @@
+C:\Users\cedric\Midi-Controller-Player\Midi\bin\Release\Midi.dll
+C:\Users\cedric\Midi-Controller-Player\Midi\bin\Release\Midi.pdb
+C:\Users\cedric\Midi-Controller-Player\Midi\obj\Release\ResolveAssemblyReference.cache
+C:\Users\cedric\Midi-Controller-Player\Midi\obj\Release\Midi.dll
+C:\Users\cedric\Midi-Controller-Player\Midi\obj\Release\Midi.pdb

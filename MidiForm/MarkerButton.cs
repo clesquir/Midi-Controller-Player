@@ -14,20 +14,10 @@ namespace MidiForm
 	/// Description of MarkerButton.
 	/// </summary>
 	public class MarkerButton : System.Windows.Forms.Label {
-		
-		int buttonIndex = 0;
 		int stepIndex = 0;
 		
 		public MarkerButton() : base() {
 			this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-		}
-		
-		public int getButtonIndex() {
-			return this.buttonIndex;
-		}
-		
-		public void setButtonIndex(int buttonIndex) {
-			this.buttonIndex = buttonIndex;
 		}
 		
 		public int getStepIndex() {

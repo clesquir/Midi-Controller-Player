@@ -36,27 +36,32 @@ namespace MidiForm
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.panVideo = new System.Windows.Forms.Panel();
-			this.SuspendLayout();
-			// 
-			// panVideo
-			// 
-			this.panVideo.Location = new System.Drawing.Point(0, 0);
-			this.panVideo.Name = "panVideo";
-			this.panVideo.Size = new System.Drawing.Size(494, 281);
-			this.panVideo.TabIndex = 0;
-			// 
-			// VideoForm
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.Black;
-			this.ClientSize = new System.Drawing.Size(761, 487);
-			this.Controls.Add(this.panVideo);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			this.Name = "VideoForm";
-			this.Text = "Video";
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VideoForm));
+            this.panVideo = new System.Windows.Forms.Panel();
+            this.SuspendLayout();
+            // 
+            // panVideo
+            // 
+            this.panVideo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panVideo.BackColor = System.Drawing.Color.Black;
+            this.panVideo.Location = new System.Drawing.Point(0, 0);
+            this.panVideo.Name = "panVideo";
+            this.panVideo.Size = new System.Drawing.Size(160, 90);
+            this.panVideo.TabIndex = 0;
+            // 
+            // VideoForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(320, 180);
+            this.Controls.Add(this.panVideo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "VideoForm";
+            this.Text = "Video";
+            this.ResumeLayout(false);
+
 		}
 		public System.Windows.Forms.Panel panVideo;
 	}

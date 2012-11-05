@@ -540,10 +540,9 @@ namespace MidiForm
         }
 
         public void CenterVideo() {
-            //Resizes video to its maximum size
-			double prop = ((double) this.currentVideo.DefaultSize.Width / (double) this.currentVideo.DefaultSize.Height);
-            int width = (int) (this.videoForm.Size.Height * prop);
-            int height = this.videoForm.Size.Height;
+            //Resizes video to its maximum size (width being always greater than height)
+			int width = this.videoForm.Size.Width;
+            int height = (int) (this.videoForm.Size.Width * (double) this.currentVideo.DefaultSize.Height / (double) this.currentVideo.DefaultSize.Width);
 
             this.videoForm.panVideo.Size = new Size(width, height);
             this.videoForm.panVideo.MinimumSize = new Size(width, height);

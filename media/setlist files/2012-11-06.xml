@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfArrayOfMedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Circostante</name>
+      <url>circostante.avi</url>
+    </Media>
+    <Media xsi:type="Audio">
+      <name>Circostante</name>
+      <url>circostante.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>If We Deny It All</name>
+      <url>if_we_deny_it_all.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>If We Deny It All</name>
+      <url>if_we_deny_it_all.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Shooting Birds</name>
+      <url>shooting_birds.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Stealing Cypher</name>
+      <url>stealing_cypher.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Followers of the Sun</name>
+      <url>followers_of_the_sun.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Followers of the Sun</name>
+      <url>followers_of_the_sun.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Brothers Aligned</name>
+      <url>brothers_aligned.wav</url>
+    </Media>
+    <Media xsi:type="Video">
+      <name>Brothers Aligned</name>
+      <url>brothers_aligned.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Inert Simulation</name>
+      <url>inert_simulation.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Inert Simulation - 01</name>
+      <url>inert_simulation_01.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Inert Simulation - 02</name>
+      <url>inert_simulation_02.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Inert Simulation - 03</name>
+      <url>inert_simulation_03.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Sheep and Wolves</name>
+      <url>sheep_and_wolves.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Sheep and Wolves</name>
+      <url>sheep_and_wolves.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Mobilis In Mobili</name>
+      <url>mobilis_in_mobili.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>To My Dear Stranger (pt1)</name>
+      <url>to_my_dear_stranger_01.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>To My Dear Stranger (pt2)</name>
+      <url>to_my_dear_stranger_02.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>To My Dear Stranger (pt3)</name>
+      <url>to_my_dear_stranger_03.avi</url>
+    </Media>
+  </ArrayOfMedia>
+</ArrayOfArrayOfMedia>

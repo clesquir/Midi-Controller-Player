@@ -22,3 +22,8 @@ C:\Users\cedric\Midi-Controller-Player\Midi\bin\Debug\Midi.pdb
 C:\Users\cedric\Midi-Controller-Player\Midi\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\cedric\Midi-Controller-Player\Midi\obj\Debug\Midi.dll
 C:\Users\cedric\Midi-Controller-Player\Midi\obj\Debug\Midi.pdb
+C:\Users\cedric\Documents\Midi-Controller-Player\Midi\bin\Debug\Midi.XML
+C:\Users\cedric\Documents\Midi-Controller-Player\Midi\bin\Debug\Midi.dll
+C:\Users\cedric\Documents\Midi-Controller-Player\Midi\bin\Debug\Midi.pdb
+C:\Users\cedric\Documents\Midi-Controller-Player\Midi\obj\Debug\Midi.dll
+C:\Users\cedric\Documents\Midi-Controller-Player\Midi\obj\Debug\Midi.pdb

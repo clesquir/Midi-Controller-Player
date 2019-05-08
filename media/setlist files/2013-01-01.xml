@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfArrayOfMedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>I Am Fiction</name>
+      <url>i_am_fiction.mpg</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Followers of the Sun</name>
+      <url>followers_of_the_sun.mpg</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Followers of the Sun</name>
+      <url>followers_of_the_sun.wav</url>
+    </Media>
+  </ArrayOfMedia>
+</ArrayOfArrayOfMedia>

@@ -229,9 +229,22 @@ namespace MidiForm
 				//Saving the last file loaded in configuration file
 				this.xmlConfiguration.Settings["lastsetlistfile"].Value = filename;
 				this.xmlConfiguration.Save(INIT_FILE_NAME);
+
+                tbBtnPrevious.Enabled = true;
+                tbBtnStop.Enabled = true;
+                tbBtnPlay.Enabled = true;
+                tbBtnPause.Enabled = true;
+                tbBtnNext.Enabled = true;
             }
-            catch (IOException)
-            {}
+            catch (IOException) {
+                PrintMessage("No setlist to load...");
+
+                tbBtnPrevious.Enabled = false;
+                tbBtnStop.Enabled = false;
+                tbBtnPlay.Enabled = false;
+                tbBtnPause.Enabled = false;
+                tbBtnNext.Enabled = false;
+            }
 		}
 		
 		/// <summary>
@@ -259,17 +272,19 @@ namespace MidiForm
 		/// Set the color marker to the beginning
 		/// </summary>
 		public void InitializeSetlist() {
-			
 			this.buttonCounter = 0;
 			this.mediaList.Clear();
-			
-			for (var i = 0; i < this.setlist.Length; i++) {
-				this.mediaList.Add(this.setlist[i]);
-			}
-			
-			InitializeSoundEngine();
-			InitializeActionComponents();
-			SetColorMarker();
+
+            if (this.setlist != null) {
+                for (var i = 0; i < this.setlist.Length; i++)
+                {
+                    this.mediaList.Add(this.setlist[i]);
+                }
+
+                InitializeSoundEngine();
+                InitializeActionComponents();
+                SetColorMarker();
+            }
 		}
 		
 		/// <summary>
@@ -437,6 +452,10 @@ namespace MidiForm
                 //Play the selected item
                 this.PlayMediaListByIndex(this.buttonCounter);
             }
+        }
+
+        public void doShowBlackCanevas() {
+            this.SetFullScreenForm(this.videoForm);
         }
 
         public void PlayMediaListByIndex(int stepIndex) {
@@ -649,5 +668,9 @@ namespace MidiForm
 				}
 			}
 		}
+
+        private void tbBtnCanevasClick(object sender, EventArgs e) {
+            this.doShowBlackCanevas();
+        }
 	}
 }

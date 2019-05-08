@@ -51,6 +51,7 @@ namespace MidiForm
             this.tbBtnPlay = new System.Windows.Forms.ToolStripButton();
             this.tbBtnPause = new System.Windows.Forms.ToolStripButton();
             this.tbBtnNext = new System.Windows.Forms.ToolStripButton();
+            this.tbBtnCanevas = new System.Windows.Forms.ToolStripButton();
             this.txtMessages = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitForm)).BeginInit();
             this.splitForm.Panel1.SuspendLayout();
@@ -143,7 +144,8 @@ namespace MidiForm
             this.tbBtnStop,
             this.tbBtnPlay,
             this.tbBtnPause,
-            this.tbBtnNext});
+            this.tbBtnNext,
+            this.tbBtnCanevas});
             this.tbMessages.Location = new System.Drawing.Point(0, 0);
             this.tbMessages.Name = "tbMessages";
             this.tbMessages.Size = new System.Drawing.Size(610, 25);
@@ -235,6 +237,17 @@ namespace MidiForm
             this.tbBtnNext.Size = new System.Drawing.Size(23, 22);
             this.tbBtnNext.Text = "Next";
             this.tbBtnNext.Click += new System.EventHandler(this.TbBtnNextClick);
+            // 
+            // tbBtnCanevas
+            // 
+            this.tbBtnCanevas.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tbBtnCanevas.Image = ((System.Drawing.Image)(resources.GetObject("tbBtnCanevas.Image")));
+            this.tbBtnCanevas.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbBtnCanevas.Name = "tbBtnCanevas";
+            this.tbBtnCanevas.Size = new System.Drawing.Size(23, 22);
+            this.tbBtnCanevas.Text = "Show black canevas";
+            this.tbBtnCanevas.ToolTipText = "Show black canevas";
+            this.tbBtnCanevas.Click += new System.EventHandler(this.tbBtnCanevasClick);
             // 
             // txtMessages
             // 
@@ -362,5 +375,7 @@ namespace MidiForm
         private void panelButtons_Click(object sender, System.EventArgs e) {
             this.panelButtons.Focus();
         }
+
+        private ToolStripButton tbBtnCanevas;
 	}
 }

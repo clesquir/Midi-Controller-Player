@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfArrayOfMedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Intro</name>
+      <url>intro.avi</url>
+    </Media>
+    <Media xsi:type="Audio">
+      <name>Intro</name>
+      <url>intro.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Followers of the Sun</name>
+      <url>followers_of_the_sun.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Followers of the Sun</name>
+      <url>followers_of_the_sun.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Silent Waltz</name>
+      <url>silent_waltz.wav</url>
+    </Media>
+    <Media xsi:type="Video">
+      <name>Silent Waltz</name>
+      <url>silent_waltz.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Inert Simulation</name>
+      <url>inert_simulation.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Inert Simulation - 01</name>
+      <url>inert_simulation_01.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Inert Simulation - 02</name>
+      <url>inert_simulation_02.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Inert Simulation - 03</name>
+      <url>inert_simulation_03.wav</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Stealing Cypher</name>
+      <url>stealing_cypher.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Breathe</name>
+      <url>breathe.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Mobilis In Mobili</name>
+      <url>mobilis_in_mobili.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Audio">
+      <name>Brothers Aligned</name>
+      <url>brothers_aligned.wav</url>
+    </Media>
+    <Media xsi:type="Video">
+      <name>Brothers Aligned</name>
+      <url>brothers_aligned.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Beliefs</name>
+      <url>beliefs.avi</url>
+    </Media>
+  </ArrayOfMedia>
+  <ArrayOfMedia>
+    <Media xsi:type="Video">
+      <name>Shooting Birds</name>
+      <url>shooting_birds.avi</url>
+    </Media>
+  </ArrayOfMedia>
+</ArrayOfArrayOfMedia>
